@@ -12,8 +12,9 @@ public class Test {
 		System.out.println(Operaciones.SUMA.name());
 		
 	
-		for(Operaciones elemento:Operaciones.values()){
-			System.out.println(elemento.getValor());
+		Operaciones[] values = Operaciones.values();
+		for (int i = 0; i < values.length; i++) {
+		System.out.println(values[i].getValor());
 		}
 			
 	}
