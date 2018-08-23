@@ -11,12 +11,15 @@ public class Test {
 		System.out.println(Operaciones.SUMA.getValor());
 		System.out.println(Operaciones.SUMA.name());
 		
-	
+		Operaciones[] values = Operaciones.values();
+
 		for(Operaciones elemento:Operaciones.values()){
 			System.out.println(elemento.getValor());
 			System.out.println(elemento.name());
 		}
-			
+
+		
+
 	}
 
 }
